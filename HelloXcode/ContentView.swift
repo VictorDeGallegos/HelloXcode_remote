@@ -9,9 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world esta es mi primer app!")
+        ZStack{
+            Color.red.ignoresSafeArea(.all)
+        
+        Text("Hello, world cambiando color de fondo!")
             .padding()
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
